@@ -7,6 +7,11 @@ const Login = () => {
         email: ""
     })
 
+    const [student, setStudent] = useState({
+        studentName: "",
+        email: ""
+    })
+
     const [errors, setErrors] = useState({
         userError: null,
         emailErrors: null
