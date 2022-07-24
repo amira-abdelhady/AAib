@@ -26,6 +26,8 @@ const Products = () => {
         return (
           <Link key={product.id} to={`/details/${product.id}`} >
             <li >{product.title}</li>
+            <li >{product.price}</li>
+            <li >{product.quantity}</li>
           </Link>
         );
       })}
