@@ -46,7 +46,7 @@ changeName(){
     return (
       <>
 
-<Navbar bg="light" expand="lg">
+{/* <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -67,10 +67,10 @@ changeName(){
       </Nav>
     </Navbar.Collapse>
   </Container>
-</Navbar>
+</Navbar> */}
 
 
-        {/* <h1>Hello from Navbar</h1>
+        <h1>Hello from Navbar</h1>
         <h2>Hello {this.state.name}</h2>
          <Link name="Home" href="http://www.google.com"/>
          <Link name="About us" href="http://www.facebook.com"/>
@@ -78,7 +78,7 @@ changeName(){
          <Link name="Login" href="http://www.linkedin.com"/>
          <h1>{this.props.x}</h1>
 
-         <button onClick={()=>{this.changeName()}}>Change name</button> */}
+         <button onClick={()=>{this.changeName()}}>Change name</button>
       </>
     );
   }
