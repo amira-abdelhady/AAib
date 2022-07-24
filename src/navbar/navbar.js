@@ -73,8 +73,10 @@ changeName(){
         <h1>Hello from Navbar</h1>
         <h2>Hello {this.state.name}</h2>
          <Link name="Home" href="http://www.google.com"/>
-         <Link name="About us" href="http://www.facebook.com"/>
+         <Link name="github" href="http://www.github.com"/>
          <Link name="Contact us" href="http://www.twitter.com"/>
+         <Link name="Hello" href="http://www.twitter.com"/>
+         <Link name="massenger" href="http://www.massenger.com"/>
          <Link name="Login" href="http://www.linkedin.com"/>
          <h1>{this.props.x}</h1>
 

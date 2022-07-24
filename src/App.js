@@ -18,7 +18,8 @@ function App() {
 
      <div className="container my-5">
 
-     <Login/>
+     <Contact/>
+     <Home />
 
      </div>
 
