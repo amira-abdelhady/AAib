@@ -87,6 +87,16 @@ console.log("change errors");
                     />
 
                 </div>
+                <div className="mb-3">
+                    <label htmlFor="formGroupExampleInput2" className="form-label">
+                        Password
+                    </label>
+                    <input type="text" className="form-control"
+                        value={user.password} name="password"
+                        onChange={(e) => handleInputChange(e)}
+                    />
+
+                </div>
 
                 <button type="submit" className="btn btn-primary" >Login</button>
             </form>
