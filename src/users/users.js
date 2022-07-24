@@ -12,7 +12,10 @@ export default class Users extends React.Component {
             users: [
                 { name: "Hend", email: "hend@gmail.com", isAdmin: true },
                 { name: "lara", email: "lara@gmail.com", isAdmin: true },
-                { name: "Salma", email: "salma@gmail.com", isAdmin: false }
+                { name: "Salma", email: "salma@gmail.com", isAdmin: false },
+                { name: "ola", email: "salma@gmail.com", isAdmin: false },
+                { name: "ramy", email: "salma@gmail.com", isAdmin: false },
+                { name: "ali", email: "salma@gmail.com", isAdmin: false }
             ]
         }
     }
